@@ -1,0 +1,18 @@
+version = 1
+SPDX-PackageName = "bristor.lean"
+SPDX-PackageSupplier = "Doug Bristor <https://bristorbrot.org>"
+SPDX-PackageDownloadLocation = "https://github.com/dougbristor/bristor.lean"
+
+# everything is MIT ...
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2026 Doug Bristor, bristorbrot.org"
+SPDX-License-Identifier = "MIT"
+
+# ... except the test vectors: data, CC0 (Doug 2026-10-02: attribution requested, not required).
+# Byte-equal to bristorbrot core/bristor_product/vectors.json, so no header goes inside the file.
+[[annotations]]
+path = "vectors/vectors.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Doug Bristor, bristorbrot.org"
+SPDX-License-Identifier = "CC0-1.0"

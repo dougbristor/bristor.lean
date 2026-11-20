@@ -70,4 +70,6 @@ was the right one to ask. This covers B3 only. The rule extends to any number of
 
 ## Licence
 
-MIT for the code; `vectors/vectors.json` is CC0. Attribution requested, not required. © 2026 Doug Bristor, bristorbrot.org.
+MIT for the code (`LICENSE`); `vectors/vectors.json` is CC0 1.0, because test vectors are data anyone may drop into their own test
+suite. Attribution requested, not required. Which file is under which licence is stated in `REUSE.toml` ([REUSE](https://reuse.software)
+convention), and both full texts are in `LICENSES/`. © 2026 Doug Bristor, bristorbrot.org.
